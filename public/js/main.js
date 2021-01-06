@@ -52,7 +52,8 @@
 
 // PARTIE 2
 // Prompt
-let temps = (prompt("Quel temps fait-il aujourd'hui")).toLocaleLowerCase
+let temps = prompt("Quel temps fait-il aujourd'hui").toLocaleLowerCase()
+console.log(temps);
 if (temps == 'soleil') {
     alert('Titties ouuuut')
 }
